@@ -1,0 +1,154 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color-on-dark: #FFFFFF;
+    --bg-color-button: #F5F4FA; 
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--primary-text-color );
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    color: currentColor;
+    text-decoration: none;
+}
+/* Основной цвет текста #757575 */
+/* Вторичный цвет текста черный #212121 */
+/* Цвет выделения синий #2196F3 */
+/* Дополнительный цвет текста белый #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+
+
+/* Header */
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.first-part-logo {
+    color: var(--accent-color);
+}
+
+.second-part-logo {
+    color: #000000;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color); 
+}
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+.link-contacts {
+    color: currentColor;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+    color: var(--accent-color);
+}
+
+
+/* /Header */
+
+/* Main */
+
+/* Hero */
+.hero-title {
+    color: var(--text-color-on-dark);
+}
+/* /Hero */
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+/* /section */
+
+/* Features */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+/* /Features */
+
+/* Team */
+.team-list .title {
+    color: var(--title-text-color);
+}
+/* /Team */
+
+/* Buttons */
+.button {
+    background-color: var(--bg-color-button);
+    color: var(--title-text-color);
+    cursor: pointer;
+    font-family: Roboto;
+    
+}
+
+.button.primary { 
+    background-color: var(--accent-color);
+    color: var(--text-color-on-dark);
+}
+
+.button.secondary {
+    background-color: var(--bg-color-button);
+    color: var(--title-text-color);
+    
+}
+.btn-order {
+    font-weight: 700;
+}
+
+.btn-filters {
+    font-weight: 500;
+}
+
+.btn-filters:hover,
+.btn-filters:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color-on-dark);
+}
+/* /Buttons */
+
+.cards-list .title {
+    color: var(--title-text-color);
+}
+
+
+
+
+/* /Main */
+
+/* Footer */
+
+.page-footer {
+    background-color: #2F303A;
+}
+.footer-address,
+.footer-address .link-contacts {
+    color: var(--text-color-on-dark);
+}
+.footer-address .link-contacts:hover,
+.footer-address .link-contacts:focus {
+    color: var(--accent-color);
+}
+.page-footer .second-part-logo {
+    color: var(--text-color-on-dark);
+}
+/* /Footer */
